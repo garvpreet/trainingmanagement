@@ -37,14 +37,11 @@ public class Training {
     @NotNull
     private Double hours;
     
-    @NotNull
-    private Long job_id;
 
-    public Training(String title, String description, Double hours, Long jobID) {
+    public Training(String title, String description, Double hours) {
 		this.title = title;
 		this.description = description;
 		this.hours = hours;
-		this.job_id = jobID;
 	}
 
 }

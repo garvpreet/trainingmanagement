@@ -14,7 +14,7 @@ public interface TrainingService {
 	
 	CustomResponse insertTraining(Training training);
 	
-	boolean updateTraining(Training training, Long trainingId);
+	CustomResponse updateTraining(Training training, Long trainingId);
 	
 	void deleteTraining(Long trainingId);
 
